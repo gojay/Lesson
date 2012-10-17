@@ -1,0 +1,29 @@
+
+#ajax-loader{
+	display: none;
+	width: 984px;
+	height: 32px;
+	position: absolute;
+	top: 600px;
+	left: 300px;
+	margin: 0 auto;
+	background: url(../images/loading.gif) center no-repeat;
+}
+
+.hide{
+	display: none;
+}
+.pointer{
+	cursor: pointer;
+}
+
+.gmap3{
+	margin: 10px 0;
+	border: 1px dashed #C0C0C0;
+	width: 500px;
+	height: 300px;
+}
+
+.datasSent, .serverResponse{width:350px; border:1px solid #F0F0F0; background-color:#A2A5F8; padding:10px; float:left; margin-right:10px; position:fixed; right:0px; top:20px; z-index:999}
+.serverResponse{top:130px}
+.datasSent p, .serverResponse p{font-style:italic; font-size:12px}

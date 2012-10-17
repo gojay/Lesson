@@ -1,0 +1,7 @@
+pre {
+    font-size: 85%;    
+}
+    
+#headerInner ul li.feed img { /* HACK: hack for IE 5x and 6x coz, they don't support png transparency */
+    behavior: url( "/iepngfix.htc" );
+}
